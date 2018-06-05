@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Palindrome detector}
   spec.description   = %q{Learn Enough Ruby palindrome detector}
-  spec.homepage      = "https:/github.com/<username>/<username>_palindrome-gem"
+  spec.homepage      = "https:/github.com/mhartl/mhartl_palindrome"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
