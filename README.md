@@ -4,7 +4,7 @@
 
 ## Installation
 
-To install `mhartl_palindrome`, add this line to your application's Gemfile:
+To install `mhartl_palindrome`, add this line to your application's `Gemfile`:
 
 ```
 gem 'mhartl_palindrome'
