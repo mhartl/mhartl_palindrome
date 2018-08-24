@@ -6,7 +6,7 @@
 
 To install `mhartl_palindrome`, add this line to your application's Gemfile:
 
-```ruby
+```
 gem 'mhartl_palindrome'
 ```
 
@@ -26,7 +26,7 @@ $ gem install mhartl_palindrome
 
 `mhartl_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
 
-```ruby
+```
 $ irb
 >> require 'mhartl_palindrome'
 >> "honey badger".palindrome?
