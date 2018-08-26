@@ -3,7 +3,7 @@ require "test_helper"
 class MhartlPalindromeTest < Minitest::Test
 
   def test_for_non_palindrome
-    assert !"apple".palindrome?
+    refute "apple".palindrome?
   end
 
   def test_for_plain_palindrome
@@ -16,5 +16,9 @@ class MhartlPalindromeTest < Minitest::Test
 
   def test_palindrome_with_punctuation
     assert "Madam, I'm Adam.".palindrome?
+  end
+
+  def test_blank_string
+    refute "   ".palindrome?
   end
 end
